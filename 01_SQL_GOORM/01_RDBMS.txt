@@ -1,0 +1,16 @@
+/* Basics */
+
+
+// MySQL DB-Start
+mysql-ctl start
+sudo service mysql start
+
+// MySQL DB-Stop
+mysql-ctl stop
+
+// MySQL DB-CLI start
+// Command Line Interface
+mysql-ctl cli
+
+// MySQL DB-CLI exit
+exit
