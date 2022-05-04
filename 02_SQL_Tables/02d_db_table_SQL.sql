@@ -28,9 +28,6 @@ DESCRIBE boo.test;
 /* ----- Daten ------- */
 INSERT INTO boo.test(name,age) VALUES ("Grizabella",29);
 INSERT INTO boo.test(age,name) VALUES (35,"Alonzo");
-
-
--- ABER: Doppelte Datensätze werden zugelassen !
 INSERT INTO boo.test(age,name) VALUES (35,"Alonzo");
 INSERT INTO boo.test(age,name) VALUES (35,"Alonzo");
 
