@@ -1,2 +1,3 @@
 source 04_SQL_DataImport/04a_db_csv_import.sql
 source 04_SQL_DataImport/04b_db_csv_import.sql
+source 04_SQL_DataImport/04c_db_SELECT.sql
