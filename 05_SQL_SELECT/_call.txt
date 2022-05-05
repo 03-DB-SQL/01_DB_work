@@ -1,2 +1,4 @@
 source 05_SQL_SELECT/05_1_parsing_csv.sql
 source 05_SQL_SELECT/05_2_que_basic.sql
+source 05_SQL_SELECT/05_3_que_sort.sql
+source 05_SQL_SELECT/05_4_que_filter.sql
