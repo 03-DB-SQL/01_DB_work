@@ -4,3 +4,5 @@ source 05_SQL_SELECT/05_3_que_sort.sql
 source 05_SQL_SELECT/05_4_que_filter.sql
 source 05_SQL_SELECT/05_5_que_stringf.sql
 source 05_SQL_SELECT/05_6a_que_distinct.sql
+source 05_SQL_SELECT/05_6b_que_count.sql
+
