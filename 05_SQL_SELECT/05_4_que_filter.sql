@@ -107,6 +107,22 @@ WHERE c_name RLIKE "^[1-9]"  -- mit Ziffer beginnend
 ORDER BY c_name;
 */
 
+-- Eingrenzen/Filtern WHERE & BETWEEN / NOT BETWEEN
+SELECT 
+    ticker AS "SYM",
+    c_name AS "Unternehmen",
+    price AS "Kurs ($)",
+    sector AS "Sektor",
+    industry AS "Branche"
+FROM stocks.ccc
+
+#WHERE sector = "Financials" AND price < 30.0  -- =/>/<
+#WHERE sector = "Financials" AND (price BETWEEN 30.0 AND 50.0)  -- =/>/<
+WHERE sector = "Financials" AND NOT (price BETWEEN 20.0 AND 250.0) -- Band rausfiltern
+
+ORDER BY price DESC
+LIMIT 200 -- X Zeilen ab 0
+;
 
 
 
